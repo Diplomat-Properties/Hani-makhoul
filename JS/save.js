@@ -38,11 +38,11 @@ function downloadVCard() {
   const vCardData = `
 BEGIN:VCARD
 VERSION:3.0
-FN:AMMAR NOURALLAH
+FN:Hani makhoul
 TITLE:Sales Manager
 ORG:Diplomat Properties
-TEL;TYPE=WORK,VOICE:+971586883324
-EMAIL:Ammar@dpdxb.com
+TEL;TYPE=WORK,VOICE:+971504646154
+EMAIL:Hanimakhoul9@gmail.com
 URL:http://www.dpdxb.com
 ADR;TYPE=WORK:;;PO Box No 181702, Office NO.807, Opal Tower, Business Bay;Dubai;;UAE
 END:VCARD
@@ -53,7 +53,7 @@ END:VCARD
 
   const a = document.createElement('a');
   a.href = url;
-  a.download = 'AMMAR NOURALLAH.vcf';
+  a.download = 'Hani makhoul.vcf';
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
